@@ -8,7 +8,7 @@ Consider a scenario where you've been hired by NASA to build an internal tool. T
 
 This information will be used by the engineers to plan out how much equipment can be transported while still being able to depart the destination planet.
 
-![](http://i.imgur.com/x189kBb.png)
+![http://i.imgur.com/x189kBb.png](http://i.imgur.com/x189kBb.png)
 (An example mockup of the finished project)
 
 ## A tour around an idiomatic folder structure
@@ -17,26 +17,32 @@ This information will be used by the engineers to plan out how much equipment ca
 
 As this is your first project, you should take a couple of minutes to get familiar with the names and the purposes of the files we've provided. The folder structure we provide resembles one you're likely to find out in the industry.  Here's a quick table to give you an overview.
 
+### .git
 
-#### .git
 This is where git stores the files it needs to keep a history of changes made to this folder. You can learn more about the .git folder by reading [this Stack Overflow answer](http://stackoverflow.com/a/42928684/700439).
 
 #### libs, node_modules, & test
+
 We keep utility code / tests in these folders. You're encouraged to poke around and see what's in these folders, but don't change too much or the tests won't work!
 
 #### .editoconfig
+
 This file adjusts the settings in most editors to help collaborators work together on a project. It can help prevent disagreements about tabs vs spaces or end of line characters between different operating systems.  [EditorConfig](http://editorconfig.org/) is a nice to have in any project where other people may work on the code.
 
 #### .gitignore
+
 There are some files that don't need to be commited to GitHub in this project. This particular .gitignore file tells Git not to include the node_modules folder, because we can simply run npm install to download the contents of this folder between machines.
 
 #### index.html
+
 This is where you'll write your markup to layout the necessary elements to implement the features of the application.
 
 #### main.js
+
 This is where you'll write your JavaScript to implement the features of the application.
 
 #### package.json
+
 Most projects contain a file, usually in the project root called package.json - this file holds various metadata relevant to the project. This file is also used to give information to npm that allows it to identify the project (author name, description etc) as well as handle the project's dependencies. (Dependencies are the inclusion of pre-written code into your project.)
 
 ## Walkthrough
@@ -67,9 +73,9 @@ If you put it in the right place, you should be met with the following output.
 
 Hurray! You made your first test pass!
 
-2. Make the remaining HTML tests to pass then come back. This should take you around 5-10 minutes.
+2\. Make the remaining HTML tests to pass then come back. This should take you around 5-10 minutes.
 
-3. Add a button and give it an id of "calculate-button", and the button text should read "Calculate".
+3\. Add a button and give it an id of "calculate-button", and the button text should read "Calculate".
 
 If you're stuck, read [this W3Schools HTML tag reference](https://www.w3schools.com/tags/default.asp). If that fails, pair with another student or flag down an instructor for help.
 
@@ -133,4 +139,3 @@ function handleClickEvent(e) {
 // 8. Reverse the drop down order so that the sun is first.
 // 9. Make it look nice using bootstrap (http://getbootstrap.com/getting-started/)
 ```
-

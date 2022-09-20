@@ -72,7 +72,7 @@ function handleClickEvent(e) {
     " If you were on " + planetName + ", you would weigh " + result + "lbs!"
   );
 }
-// 7. Set the calculate-weight button's onclick method to use the handleClickEvent function.
+// 7. Set the calculate-weight button's onclick met=hod to use the handleClickEvent function.
 $("#calculate-button").click(handleClickEvent);
 // Bonus Challenges
 // 8. Reverse the drop down order so that the sun is first.

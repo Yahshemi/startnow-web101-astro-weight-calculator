@@ -1,7 +1,11 @@
 body{
-background: #ff00cc;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("https://wallpapercave.com/wp/wp4222695.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: white;
 }
 .user-info{
   float: left;
@@ -12,4 +16,8 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
   border: 10%;
   position: relative;
   margin-left: 8%;
+}
+.jumbotron{
+  margin-top:2%;
+  background-image: url("https://cdn.hswstatic.com/gif/planet-order.jpg")
 }
