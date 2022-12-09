@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Astro Weight Calculator</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Write your markup here -->
-    <div class="container">
-      <h1 class="text-center jumbotron">Astro Weight Calculator</h1>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Astro Weight Calculator</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center jumbotron">Astro Weight Calculator</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
       <div class="card user-info" style="width: 14rem;">
         <input id="user-weight" type="text" placeholder="Weight (lbs)" />
         <br>
         <select id="planets"></select>
         <hr>
-        <button
-          id="calculate-button"
-          class="btn btn-success btn btn-primary btn-lg"
-        >
+        <button id="calculate-button" class="btn btn-success btn btn-primary btn-lg">
           Calculate
         </button>
       </div>
@@ -40,7 +34,8 @@
       </div>
     </div>
   </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="main.js" charset="utf-8"></script>
-  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
 </html>
